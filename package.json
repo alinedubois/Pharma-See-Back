@@ -1,0 +1,27 @@
+{
+  "name": "pharma-see-back",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "debug": "~2.6.9",
+    "dotenv": "~10.0.0",
+    "express": "~4.16.1",
+    "mysql2": "~2.2.5"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "db-config.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinedubois/Pharma-See-Back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinedubois/Pharma-See-Back/issues"
+  },
+  "homepage": "https://github.com/alinedubois/Pharma-See-Back#readme"
+}
