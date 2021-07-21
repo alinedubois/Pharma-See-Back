@@ -9,9 +9,9 @@
     "mysql2": "~2.2.5"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node src/app.js"
   },
-  "main": "db-config.js",
+  "main": "src/db-config.js",
   "devDependencies": {},
   "repository": {
     "type": "git",

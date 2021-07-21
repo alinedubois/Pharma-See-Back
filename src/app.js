@@ -1,6 +1,6 @@
 const express = require('express');
 
-const port = process.env.PORT || 3009;
+const port = process.env.PORT || 3000;
 
 const referentielRouter = require('./routes/referentiel');
 const medicamentsRouter = require('./routes/medicaments');
