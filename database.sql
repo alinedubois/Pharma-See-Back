@@ -16,6 +16,8 @@ insert into medicaments_de_reference (nom, forme, administration, generique, sur
 VALUES ('Doliprane (Paracétamol) 500mg, 16 gélules', 'Gélules', 'Voie orale', false, false),
        ('Ebastine Zentiva 10mg, 30 comprimés pelliculés', 'Comprimés', 'Voie orale', false, false),
        ('Berocca Energie, Pack ECO 60 comprimés', 'Comprimés', 'Voie orale', false, false),
+       ('Spasfon-Lyoc 80mg', 'Comprimés lyophilisats', 'Voie orale', false, false),
+       ('Solupred 5mg', 'Comprimés orodispersibles', 'Voie orale', false, false),
        ('Rescue Compte gouttes', 'Gouttes', 'Voie orale', false, false);
 
 create table pharmacie (
