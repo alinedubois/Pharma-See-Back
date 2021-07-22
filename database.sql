@@ -18,6 +18,14 @@ VALUES ('Doliprane (Paracétamol) 500mg, 16 gélules', 'Gélules', 'Voie orale',
        ('Berocca Energie, Pack ECO 60 comprimés', 'Comprimés', 'Voie orale', false, false),
        ('Spasfon-Lyoc 80mg', 'Comprimés lyophilisats', 'Voie orale', false, false),
        ('Solupred 5mg', 'Comprimés orodispersibles', 'Voie orale', false, false),
+       ('Solupred 20mg', 'Comprimés orodispersibles', 'Voie orale', false, false),
+       ('Biceptine', 'Spray', 'Pulverisation cutanée', false, false),
+       ('Pantaprazole 40mg', 'Comprimés', 'Voie orale', false, false),
+       ('Ultra-Levure 200mg', 'Gélules', 'Voie orale', false, false),
+       ('Gaviscon 500mg', 'Sachets', 'Voie orale', false, false),
+       ('Helicidine', 'Sirop', 'Voie orale', false, false),
+       ('Pivalone 1%', 'Spray', 'Voie nasale', false, false),
+       ('Colludol', 'Flacon pressurisé', 'Voie orale', false, false),
        ('Rescue Compte gouttes', 'Gouttes', 'Voie orale', false, false);
 
 create table pharmacie (
@@ -29,3 +37,6 @@ create table pharmacie (
 alter table pharmacie
 add constraint fk_pharmacie_medicaments_de_reference
 foreign key (id_medicament) references medicaments_de_reference(id);
+
+alter table pharmacie
+add column email varchar (200) not null;
